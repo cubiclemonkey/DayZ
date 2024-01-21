@@ -1,4 +1,7 @@
 void main()
+    /*	This 'init.c' file created by: https://github.com/cubiclemonkey     *	
+     *	Created for Survival of the Fittest 2.0
+     */
 {
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
@@ -57,9 +60,18 @@ class CustomMission: MissionServer
 		player.RemoveAllItems();
 		// Static Items - Bag, Bandages, Flare
 		player.GetInventory().CreateInInventory( "ImprovisedBag" );
-		player.GetInventory().CreateInInventory( "Roadflare" );
+		player.GetInventory().CreateInInventory( "Heatpack" );
 		// Assign Roadflare to slot 3
+		private EntityAI light;
+		light = player.GetInventory().CreateInInventory("Roadflare");
+		player.SetQuickBarEntityShortcut(light, 2);
 		
+		// Assign Bandages to slot 2
+		private EntityAI healing;
+		healing = player.GetInventory().CreateInInventory("BandageDressing");
+		player.SetQuickBarEntityShortcut(healing, 1);		
+		player.GetInventory().CreateInInventory( "BandageDressing" ); 
+				
 		// Random Food Item(s)
 		string foodArray[] = { "BakedBeansCan_Opened", "TacticalBaconCan_Opened", "PeachesCan_Opened", "SpaghettiCan_Opened" };
 		int foodIndex = Math.RandomInt( 0, 3 );
@@ -74,19 +86,11 @@ class CustomMission: MissionServer
 		string sweaterArray[] = { "Sweater_Blue", "Sweater_Gray", "Sweater_Green", "Sweater_Red" };
 		int sweaterIndex = Math.RandomInt( 0, 3 );
 		player.GetInventory().CreateInInventory( sweaterArray[sweaterIndex] );
-		
-		// Static Items - Heatpack
-		player.GetInventory().CreateInInventory( "Heatpack" );
 
 		// Random Pants
 		string pantsArray[] = { "CargoPants_Beige", "CargoPants_Black", "CargoPants_Blue", "CargoPants_Green", "CargoPants_Grey" };
 		int pantsIndex = Math.RandomInt( 0, 4 );
 		player.GetInventory().CreateInInventory( pantsArray[pantsIndex] );
-		
-		// Static Items - Bag, Bandages, Flare
-		player.GetInventory().CreateInInventory( "Bandages" );
-		player.GetInventory().CreateInInventory( "Bandages" );
-		// Assign Bandages to slot 2
 		
 		// Random Shoes
 		string shoesArray[] = { "HikingBootsLow_Beige", "HikingBootsLow_Black", "HikingBootsLow_Blue", "HikingBootsLow_Grey" };
@@ -108,17 +112,32 @@ class CustomMission: MissionServer
 		int armbIndex = Math.RandomInt( 0, 11 );
 		player.GetInventory().CreateInInventory( armbArray[armbIndex] );
 		
-		// Random Smoke Grenade
+		// Random Smoke Grenade: Assign Smoke to slot 4
 		string smokeArray[] = { "M18SmokeGrenade_Green", "M18SmokeGrenade_Purple", "M18SmokeGrenade_Red", "M18SmokeGrenade_White", "M18SmokeGrenade_Yellow" };
 		int smokeIndex = Math.RandomInt( 0, 4 );
-		player.GetInventory().CreateInInventory( smokeArray[smokeIndex] );
-		// Assign Smoke to slot 4
+		private EntityAI smogren;
+		smogren = player.GetInventory().CreateInInventory( smokeArray[smokeIndex] );
+		player.SetQuickBarEntityShortcut(smogren, 3);
 		
-		// Random Frag Grenade
+		// Random Frag Grenade: Assign Frag to slot 5
 		string fragArray[] = { "FlashGrenade", "M67Grenade", "RGD5Grenade" };
 		int fragIndex = Math.RandomInt( 0, 2 );
-		player.GetInventory().CreateInInventory( fragArray[fragIndex] );
-		// Assign Frag to slot 5
+		private EntityAI fraggren;
+		fraggren = player.GetInventory().CreateInInventory( fragArray[fragIndex] );
+		player.SetQuickBarEntityShortcut(fraggren, 4);
+		
+		// Random Pistol: Assign Pistol to slot 0
+		string pistolArray[] = { "MKII", "Colt1911", "FNX45", "Magnum", "Deagle" };
+		int pistolIndex = Math.RandomInt( 0, 4 );
+		private EntityAI primary;
+		primary = player.GetHumanInventory().CreateInHands( pistolArray[pistolIndex] );
+		player.SetQuickBarEntityShortcut(primary, 0);
+		
+		// Associated Magazines
+		string magArray[] = { "Mag_MKII_10Rnd", "Mag_1911_7Rnd", "Mag_FNX45_15Rnd", "Ammo_357", "Deagle_Mag_9rnd" };
+		player.GetInventory().CreateInInventory( magArray[pistolIndex] );
+		player.GetInventory().CreateInInventory( magArray[pistolIndex] );
+		player.GetInventory().CreateInInventory( magArray[pistolIndex] );
 		
 		// Health Boost
 		player.GetStatWater().Add(2000);
