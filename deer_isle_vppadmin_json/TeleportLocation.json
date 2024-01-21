@@ -1,0 +1,348 @@
+{
+    "m_TeleportLocations": [
+        {
+            "m_Name": "Alcatraz Island",
+            "m_Position": [
+                15745.0,
+                41.0,
+                4715.0
+            ]
+        },
+        {
+            "m_Name": "Area 42",
+            "m_Position": [
+                13267.0,
+                10.0,
+                9999.0
+            ]
+        },
+        {
+            "m_Name": "Asheville",
+            "m_Position": [
+                7201.0,
+                4.0,
+                2669.0
+            ]
+        },
+        {
+            "m_Name": "Bayville",
+            "m_Position": [
+                10415.0,
+                0.0,
+                12074.0
+            ]
+        },
+        {
+            "m_Name": "Bear Suit Island",
+            "m_Position": [
+                15448.0,
+                0.0,
+                15472.0
+            ]
+        },
+        {
+            "m_Name": "Bunker Inlet",
+            "m_Position": [
+                14042.0,
+                4.0,
+                6663.0
+            ]
+        },
+        {
+            "m_Name": "Camp Eagle",
+            "m_Position": [
+                8782.0,
+                11.0,
+                3655.0
+            ]
+        },
+        {
+            "m_Name": "Crotch Island Coast",
+            "m_Position": [
+                10724.0,
+                8.0,
+                3136.0
+            ]
+        },
+        {
+            "m_Name": "Crotch Island Mine",
+            "m_Position": [
+                10929.0,
+                23.0,
+                2272.0
+            ]
+        },
+        {
+            "m_Name": "Deep Water Oilrig",
+            "m_Position": [
+                2138.0,
+                38.0,
+                12179.0
+            ]
+        },
+        {
+            "m_Name": "Duskar",
+            "m_Position": [
+                7760.0,
+                0.0,
+                8001.0
+            ]
+        },
+        {
+            "m_Name": "East Harbor",
+            "m_Position": [
+                11214.0,
+                2.0,
+                10193.0
+            ]
+        },
+        {
+            "m_Name": "Eastbrooke",
+            "m_Position": [
+                10331.0,
+                9.0,
+                7987.0
+            ]
+        },
+        {
+            "m_Name": "Fairfield",
+            "m_Position": [
+                9816.0,
+                0.0,
+                6861.0
+            ]
+        },
+        {
+            "m_Name": "Fishers Camp",
+            "m_Position": [
+                10416.0,
+                0.0,
+                5623.0
+            ]
+        },
+        {
+            "m_Name": "Georgestown",
+            "m_Position": [
+                4621.0,
+                0.0,
+                4175.0
+            ]
+        },
+        {
+            "m_Name": "Hazelands",
+            "m_Position": [
+                4681.0,
+                11.0,
+                2682.0
+            ]
+        },
+        {
+            "m_Name": "Horizon Oilrig",
+            "m_Position": [
+                4192.0,
+                0.0,
+                15736.0
+            ]
+        },
+        {
+            "m_Name": "Kushville",
+            "m_Position": [
+                7556.0,
+                7.0,
+                3927.0
+            ]
+        },
+        {
+            "m_Name": "Northern Airfield",
+            "m_Position": [
+                8881.0,
+                7.0,
+                15514.0
+            ]
+        },
+        {
+            "m_Name": "Old Town",
+            "m_Position": [
+                2202.0,
+                12.0,
+                9151.0
+            ]
+        },
+        {
+            "m_Name": "One Bear Island",
+            "m_Position": [
+                10034.0,
+                7.0,
+                1135.0
+            ]
+        },
+        {
+            "m_Name": "Paris Island",
+            "m_Position": [
+                3131.0,
+                3.0,
+                3842.0
+            ]
+        },
+        {
+            "m_Name": "Portland",
+            "m_Position": [
+                6342.7001953125,
+                38.0,
+                14774.7998046875
+            ]
+        },
+        {
+            "m_Name": "PowerPlant",
+            "m_Position": [
+                4765.5,
+                74.0,
+                7097.5
+            ]
+        },
+        {
+            "m_Name": "Rockenheim Circuit",
+            "m_Position": [
+                9476.0,
+                0.0,
+                11249.0
+            ]
+        },
+        {
+            "m_Name": "Rogue Wave Oilrig",
+            "m_Position": [
+                2422.0,
+                0.0,
+                14619.0
+            ]
+        },
+        {
+            "m_Name": "Sandy Bay",
+            "m_Position": [
+                5559.0,
+                4.0,
+                7410.0
+            ]
+        },
+        {
+            "m_Name": "Scouts Camp (East)",
+            "m_Position": [
+                8548.099609375,
+                16.0,
+                5214.10009765625
+            ]
+        },
+        {
+            "m_Name": "Scouts Camp (West)",
+            "m_Position": [
+                4935.5,
+                4.0,
+                2182.199951171875
+            ]
+        },
+        {
+            "m_Name": "Sheep Island (NW)",
+            "m_Position": [
+                12557.7998046875,
+                0.0,
+                4198.10009765625
+            ]
+        },
+        {
+            "m_Name": "Sheep Island (SE)",
+            "m_Position": [
+                15559.099609375,
+                15.0,
+                1164.0
+            ]
+        },
+        {
+            "m_Name": "Sheep Island (Toxic)",
+            "m_Position": [
+                13998.0,
+                48.0,
+                2150.0
+            ]
+        },
+        {
+            "m_Name": "Smallville",
+            "m_Position": [
+                10525.0,
+                2.0,
+                4376.0
+            ]
+        },
+        {
+            "m_Name": "Southern Airfield",
+            "m_Position": [
+                5923.0,
+                0.0,
+                3636.0
+            ]
+        },
+        {
+            "m_Name": "Southwest Plateau",
+            "m_Position": [
+                53.0,
+                0.0,
+                413.0
+            ]
+        },
+        {
+            "m_Name": "Stonington",
+            "m_Position": [
+                6375.0,
+                19.0,
+                2321.0
+            ]
+        },
+        {
+            "m_Name": "Swamp Compound",
+            "m_Position": [
+                3778.0,
+                23.0,
+                9096.0
+            ]
+        },
+        {
+            "m_Name": "Swan Island",
+            "m_Position": [
+                390.0,
+                7.0,
+                14918.0
+            ]
+        },
+        {
+            "m_Name": "Waldoboro",
+            "m_Position": [
+                9072.0,
+                40.0,
+                9653.0
+            ]
+        },
+        {
+            "m_Name": "Warren Cove",
+            "m_Position": [
+                7076.5,
+                10.0,
+                5341.5
+            ]
+        },
+        {
+            "m_Name": "West Brook (Godmode)",
+            "m_Position": [
+                3527.93994140625,
+                33.0,
+                6171.16015625
+            ]
+        },
+        {
+            "m_Name": "Cavern Rangezz",
+            "m_Position": [
+                5256.89990234375,
+                8.0,
+                10719.400390625
+            ]
+        }
+    ]
+}
