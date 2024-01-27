@@ -1,14 +1,12 @@
 void main()
-    /*	This 'init.c' file created by: https://github.com/cubiclemonkey     *	
-     *	Created for Survival of the Fittest 2.0
+    /*	This 'init.c' file created by: https://github.com/cubiclemonkey
+     *	Created on DayZ Serve version: 1.23.157045
      */
 {
-	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
 
-	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
 	int reset_month = 9, reset_day = 20;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
@@ -58,9 +56,11 @@ class CustomMission: MissionServer
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
 		player.RemoveAllItems();
+		
 		// Static Items - Bag, Bandages, Flare
 		player.GetInventory().CreateInInventory( "ImprovisedBag" );
 		player.GetInventory().CreateInInventory( "Heatpack" );
+		
 		// Assign Roadflare to slot 3
 		private EntityAI light;
 		light = player.GetInventory().CreateInInventory("Roadflare");
@@ -140,8 +140,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory( magArray[pistolIndex] );
 		
 		// Health Boost
-		player.GetStatWater().Add(2000);
-		player.GetStatEnergy().Add(2000);
+		//player.GetStatWater().Add(2000);
+		//player.GetStatEnergy().Add(2000);
 	}
 };
 
